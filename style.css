@@ -1,0 +1,118 @@
+/* ===== GENERAL ===== */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* ===== INTRODUCTION SECTION ===== */
+#introduction {
+  background-color: white;
+  max-width: 600px;
+  margin: 60px auto 0 auto;
+  padding: 50px 60px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+#introduction h1 {
+  color: #2c3e50;
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+#introduction p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+/* ===== CIRCULAR IMAGE ===== */
+.img-circle {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 24px auto;
+}
+
+/* ===== BUTTON ===== */
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+
+/* ===== PASSION SECTIONS ===== */
+.passion {
+  background-color: white;
+  max-width: 600px;
+  margin: 20px auto 0 auto;
+  padding: 30px 60px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.passion h2 {
+  color: #6B72E1;
+  font-size: 20px;
+  margin: 0 0 8px 0;
+}
+
+.passion p {
+  color: #555;
+  font-size: 15px;
+  margin: 0;
+}
+
+/* ===== FOLLOW ME ===== */
+#follow {
+  background-color: white;
+  max-width: 600px;
+  margin: 20px auto 60px auto;
+  padding: 30px 60px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+#follow h2 {
+  color: #2c3e50;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+/* ===== SOCIAL ICONS LIST ===== */
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+  color: black;
+}
