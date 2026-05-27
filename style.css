@@ -7,28 +7,78 @@ body {
   color: #333;
 }
 
-/* ===== INTRODUCTION SECTION ===== */
-#introduction {
-  background-color: white;
-  max-width: 600px;
-  margin: 60px auto 0 auto;
-  padding: 50px 60px;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+/* ===== SIDEBAR ===== */
+.sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #2c3e50;
+  border-right: 1px solid #1a252f;
+  padding-top: 40px;
 }
 
-#introduction h1 {
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.sidebar ul li a {
+  display: block;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 14px 24px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.sidebar ul li a:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding-left: 30px;
+}
+
+/* ===== PAGE CONTENT ===== */
+.page-content {
+  margin-left: 200px;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px 60px 20px;
+}
+
+/* ===== CARD WHITE ===== */
+.card-white {
+  background-color: white;
+  padding: 40px 50px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card-white h1 {
   color: #2c3e50;
   font-size: 28px;
   margin-bottom: 24px;
 }
 
-#introduction p {
+.card-white h2 {
+  color: #6B72E1;
+  font-size: 20px;
+  margin: 0 0 8px 0;
+}
+
+.card-white p {
   color: #555;
   font-size: 16px;
   line-height: 1.7;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 /* ===== CIRCULAR IMAGE ===== */
@@ -57,49 +107,10 @@ body {
   color: white;
 }
 
-/* ===== PASSION SECTIONS ===== */
-.passion {
-  background-color: white;
-  max-width: 600px;
-  margin: 20px auto 0 auto;
-  padding: 30px 60px;
-  border-radius: 10px;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-.passion h2 {
-  color: #6B72E1;
-  font-size: 20px;
-  margin: 0 0 8px 0;
-}
-
-.passion p {
-  color: #555;
-  font-size: 15px;
-  margin: 0;
-}
-
-/* ===== FOLLOW ME ===== */
-#follow {
-  background-color: white;
-  max-width: 600px;
-  margin: 20px auto 60px auto;
-  padding: 30px 60px;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-#follow h2 {
-  color: #2c3e50;
-  font-size: 20px;
-  margin-bottom: 16px;
-}
-
 /* ===== SOCIAL ICONS LIST ===== */
 .list-inline {
   list-style: none;
-  padding-left: 0px;
+  padding-left: 0;
   margin: 0;
 }
 
