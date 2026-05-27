@@ -1,3 +1,6 @@
+/* Typeform popup styles */
+@import url("//embed.typeform.com/next/css/popup.css");
+
 /* ===== GENERAL ===== */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
