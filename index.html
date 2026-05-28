@@ -1,73 +1,167 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Habib Karam | Profile</title>
-    <meta name="description" content="Hi, I'm Habib Karam. Welcome to my profile page.">
+    <title>Habib Karam | Freelance Web Developer</title>
     <meta charset="utf-8">
-    <!-- Font Awesome for social icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Habib Karam — Freelance web developer building clean, fast websites.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
-    <!-- SIDEBAR -->
-    <div class="sidebar">
-      <ul>
-        <li><a href="#about">About me</a></li>
-        <li><a href="#webdev">Web Development</a></li>
-        <li><a href="#uiux">UI/UX Design</a></li>
-        <li><a href="#problemsolving">Problem Solving</a></li>
-      </ul>
+    <!-- NAV -->
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="#" class="nav-brand">Habib Karam</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- BANNER -->
+    <div class="banner">
+      <div class="container">
+        <img class="avatar" src="images/profile-pic.jpg" alt="Habib Karam">
+        <h1>Habib Karam</h1>
+        <h2>Freelance Web Developer</h2>
+        <a href="#projects" class="btn">See my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
     </div>
 
-    <!-- PAGE CONTENT -->
-    <div class="page-content">
-      <div class="container">
+    <!-- ABOUT -->
+    <div class="container" id="about">
+      <div class="card-white">
+        <h2>About me 👋</h2>
+        <p>
+          I'm a freelance web developer who builds clean, fast, and beautiful websites tailored to each
+          client's vision. With a strong eye for design and attention to detail, I turn ideas into polished
+          digital experiences that leave a lasting impression.
+        </p>
+        <p>
+          Whether you need a personal brand, a product landing page, or a full e-commerce presence —
+          I bring both the technical skills and the aesthetic sensibility to get it right.
+        </p>
+      </div>
+    </div>
 
-        <!-- INTRODUCTION -->
-        <div class="card-white" id="about">
-          <h1>Hello, I'm Habib 👋</h1>
+    <!-- PROJECTS -->
+    <div class="container" id="projects">
+      <h2 class="section-title">Selected Projects</h2>
+      <div class="cards">
 
-          <img class="img-circle" src="images/profile-pic.jpg" alt="Habib Karam">
-
-          <p>
-            I love coding, building things on the web, and exploring new ideas.
-            Currently studying web development and working on cool projects. 🚀
-          </p>
-
-          <a href="https://github.com/Habib-Karam" target="_blank" class="btn-blue">Discover my work</a>
-          <button class="btn-blue" data-tf-popup="T0gwgtkw" data-tf-iframe-props="title=Contact Habib" style="margin-left: 10px; border: none; cursor: pointer;">Contact me</button>
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-body">
+            <h3>Jewellery Core</h3>
+            <p>An e-commerce landing page for a luxury jewellery brand, featuring a hero banner, brand showcase grid, and an elegant gold &amp; purple aesthetic.</p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+            <span class="private-label"><i class="fas fa-lock"></i> Private client</span>
+          </div>
         </div>
 
-        <!-- PASSIONS -->
-        <div class="card-white" id="webdev">
-          <h2>Web Development 💻</h2>
-          <p>I am passionate about <strong>Web Development</strong>.</p>
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-body">
+            <h3>Personal Profile</h3>
+            <p>A personal portfolio site with fixed sidebar navigation, skills sections, and integrated social links — designed for a strong first impression.</p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+            <span class="private-label"><i class="fas fa-lock"></i> Private client</span>
+          </div>
         </div>
 
-        <div class="card-white" id="uiux">
-          <h2>UI/UX Design 🎨</h2>
-          <p>I am passionate about <strong>UI/UX Design</strong>.</p>
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-body">
+            <h3>Lumière Restaurant</h3>
+            <p>A refined landing page for a contemporary French restaurant with a seasonal menu showcase and a warm, typographic atmosphere.</p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JS</span>
+            </div>
+            <span class="private-label"><i class="fas fa-lock"></i> Private client</span>
+          </div>
         </div>
 
-        <div class="card-white" id="problemsolving">
-          <h2>Problem Solving 🧠</h2>
-          <p>I am passionate about <strong>Problem Solving</strong>.</p>
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-body">
+            <h3>FitZone Gym</h3>
+            <p>A bold landing page for a local fitness centre, featuring a hero section, class schedule, membership tiers, and a contact form.</p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JS</span>
+            </div>
+            <span class="private-label"><i class="fas fa-lock"></i> Private client</span>
+          </div>
         </div>
 
-        <!-- FOLLOW ME -->
-        <div class="card-white" id="follow">
-          <h2>Follow me</h2>
-          <ul class="list-inline">
-            <li><a href="https://github.com/Habib-Karam" target="_blank"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://twitter.com" target="_blank"><i class="fab fa-x-twitter"></i></a></li>
-          </ul>
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-body">
+            <h3>Lens & Light</h3>
+            <p>A minimal portfolio site for a freelance photographer, with a fullscreen image gallery, about section, and booking inquiry form.</p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+            <span class="private-label"><i class="fas fa-lock"></i> Private client</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top"></div>
+          <div class="card-body">
+            <h3>Maison Realty</h3>
+            <p>A property listing site for a boutique real estate agency, showcasing featured listings with a clean card grid and search filters.</p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JS</span>
+            </div>
+            <span class="private-label"><i class="fas fa-lock"></i> Private client</span>
+          </div>
         </div>
 
       </div>
     </div>
 
-    <script src="//embed.typeform.com/next/embed.js"></script>
+    <!-- CONTACT -->
+    <div class="container" id="contact">
+      <div class="card-white">
+        <h2>Let's work together 🤝</h2>
+        <p>Have a project in mind? I'd love to hear about it. Reach out through any of the channels below.</p>
+        <ul class="list-inline">
+          <li>
+            <a href="https://www.linkedin.com/in/habib-karam" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/_habibkaram?igsh=MTJ2NnY5bmF4c3RrdQ==" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>&copy; 2026 Habib Karam</p>
+    </footer>
+
   </body>
 </html>
